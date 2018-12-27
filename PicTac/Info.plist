@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PicTac</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,6 +22,26 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>PicTac would like to access your camera for taking pictures and video.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>PicTac would like to access your microphone for audio while recording video.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>PicTac would like to save photos to your photo gallery.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Pixellari.ttf</string>
+		<string>3D.ttf</string>
+		<string>TypeKeys.ttf</string>
+		<string>StayClassy.ttf</string>
+		<string>LittleDays.ttf</string>
+		<string>Choko.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +53,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
